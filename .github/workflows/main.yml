@@ -2,7 +2,7 @@ name: Sync and merge upstream repository with your current repository
   uses: pengzhile/pandora-cloud-serverless
   with:
     # URL of gitHub public upstream repo
-    upstream_repo: "https://github.com/actions/starter-workflows.git"
+    upstream_repo: "https://github.com/pengzhile/pandora-cloud-serverless.git"
     # Branch to merge from upstream (defaults to downstream branch)
     upstream_branch: main
     # Branch to merge into downstream
